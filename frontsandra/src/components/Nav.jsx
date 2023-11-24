@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/nav.css";
+import logo from "../assets/LOGO-famicale1-01.png"
 
 function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
@@ -18,7 +19,7 @@ function Navbar() {
     <div className={`navbar ${showLinks ? "showNav" : "hideNav"}`}>
       <div className="logo">
         <NavLink to="/">
-          <img className="logo-img" //src={none} 
+          <img className="logo-img" src={logo} 
           alt="logo LaFamicale" />
         </NavLink>
       </div>
