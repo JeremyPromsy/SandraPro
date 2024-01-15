@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/nav.css";
-import logo from "../assets/LOGO-famicale1-01.png"
+import logo from "../assets/VPA-Logo.png"
 
 function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
