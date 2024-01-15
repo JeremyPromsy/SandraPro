@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 60px;
+}
+
+.logoFooter {
+    height: 50px;
+    padding-top: 5px;
+}
+
+.nav-linksFooter a {
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    font-size: 16px;
+}
+
+@media (max-width: 375px) {
+    .footer {
+        height: 100px;
+    }    
+    .logoFooter {
+        width: 50px;
+    }
+
+}
+
+@media screen and (max-width:767px){
+    
+}
