@@ -1,0 +1,9 @@
+.searchResults{
+    width: 100%;
+}
+
+.searchResult{
+    border: 1px solid;
+    margin: 5px;
+    padding: 5px;
+}
