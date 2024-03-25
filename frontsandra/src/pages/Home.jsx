@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.css"
+import { NavLink } from "react-router-dom";
 
 function Home () {
     return (
@@ -8,23 +9,35 @@ function Home () {
                 <div className="presentation">
                     <h2>Mes préstations</h2>
                     <div className="gestion">
-                        <h3>Gestion</h3>
+                        <NavLink to="/gestion">
+                            <h3>Gestion</h3>
+                        </NavLink>
                     </div>
                     <div className="financier">
-                        <h3>Finacier</h3>
+                        <NavLink to="/financier">
+                            <h3>Financier</h3>
+                        </NavLink>
                     </div>
                     <div className="immobilier">
-                        <h3>Immobilier</h3>
+                        <NavLink to="/immobilier">
+                            <h3>Immobilier</h3>
+                        </NavLink>
                     </div>
                     <div className="art">
-                        <h3>Art-thérapie</h3>
+                        <NavLink to="/art-thérapie">     
+                            <h3>Art-thérapie</h3>
+                        </NavLink>
                     </div>
                 </div>
                 <div className="quiSuisJe">
-                    <h2>Qui suis-je ?</h2>
+                    <NavLink to="/quisuisje">
+                        <h2>Qui suis-je ?</h2>
+                    </NavLink>
                 </div>
                 <div className="contactHome">
-                    <h2>Contact</h2>
+                    <NavLink to="/contact">
+                        <h2>Contact</h2>
+                    </NavLink>
                 </div>
         </div>
     )
