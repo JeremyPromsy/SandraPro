@@ -5,6 +5,7 @@
     text-align: center;
     color: white;
     height: 60px;
+    border-top: 2px black solid;
 }
 
 .logoFooter {

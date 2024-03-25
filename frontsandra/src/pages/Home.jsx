@@ -4,10 +4,12 @@ import "../styles/home.css"
 function Home () {
     return (
         <div className="home">
-            <div className="imagesHome">
-            <h2>Mon histoire</h2>
+            <h1>Découvrez VPA : Votre patrimoine autrement</h1>
+            <div className="presentation">
+            <h2>Mes préstations</h2>
            </div>
-           <div className="calendrierHome">
+           <div className="quiSuisJe">
+           <h2>Qui suis-je ?</h2>
            </div>
            <div className="contactHome">
            <h2>Contactez-moi !</h2>

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/nav.css";
-import Recherche from "../components/Recherche";
 import logo from "../assets/VPA-Logo.png"
 
 function Navbar() {
@@ -47,8 +46,6 @@ function Navbar() {
         </li>
       </ul>
     </div>
-    <div className="trouNav"></div>
-    <div className="recherche"><Recherche /></div>
     </div>
   );
 }
