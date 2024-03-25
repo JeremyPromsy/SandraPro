@@ -7,7 +7,7 @@ function Contact() {
     <div className="pageInfo">
     <div className="contactPage">
       <div className="contactDiv">
-        <h2>Contactez-nous !</h2>
+        <h1>Contactez-nous !</h1>
         <FormContact />
         <div className="boutonMail">
         <p>Ou envoyez-nous un mail directement, <br></br>si vous le souhaitez, en cliquant sur le bouton ci-dessous.</p>

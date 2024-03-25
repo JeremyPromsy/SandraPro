@@ -1,51 +1,60 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/nav.css";
-import logo from "../assets/VPA-Logo.png"
+import logo from "../assets/VPA-Logo.png";
 
 function Navbar() {
-  const [showLinks, setShowLinks] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
-  const handleShowLinks = () => {
-    setShowLinks(!showLinks);
-  };
-
-  const closeMenu = () => {
-    setShowLinks(false); 
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
   };
 
   return (
-    <div className="navigation">
-    <div className={`navbar ${showLinks ? "showNav" : "hideNav"}`}>
-      <div className="logo">
-        <NavLink to="/">
-          <img className="logo-img" src={logo} 
-          alt="logo LaFamicale" />
-        </NavLink>
+    <div className="container">
+      <nav className={`sidebar ${isSidebarOpen ? "sidebar-open" : ""}`}>
+        <div className="sidebar-top">
+          <NavLink to="/">
+            <img className="logo-img" src={logo} alt="logo VPA" />
+          </NavLink>
+          <div className="expand_btn" onClick={toggleSidebar}></div>
+        </div>
+        <div className="sidebar-links">
+          <h2>Menu</h2>
+          <ul className="classNav">
+            <li className="nav-links nav-links1">
+              <NavLink to="/Gestion">Gestion</NavLink>
+            </li>
+            <li className="nav-links nav-links2">
+              <NavLink to="/financier">Financier</NavLink>
+            </li>
+            <li className="nav-links nav-links3">
+              <NavLink to="/immobilier">Immobilier</NavLink>
+            </li>
+            <li className="nav-links nav-links4">
+              <NavLink to="/art-thérapie">Art-Thérapie</NavLink>
+            </li>
+          </ul>
+          <h2>En savoir plus</h2>
+          <ul className="classNav">
+            <li className="nav-links nav-links5">
+              <NavLink to="/informations">Qui suis-je ?</NavLink>
+            </li>
+            <li className="nav-links nav-links6">
+              <NavLink to="/contact">Contact</NavLink>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      {/* Bouton pour réouvrir le menu */}
+      {!isSidebarOpen && (
+        <div className="reopen-btn" onClick={toggleSidebar}>
+          Réouvrir le menu
+        </div>
+      )}
+      <div className="content">
+        {/* Contenu principal de votre application */}
       </div>
-      <div className="navBurger">
-      <button className="menuIcon" onClick={handleShowLinks}>
-        <span className="burgerBar"></span>
-      </button>
-      </div>
-      <ul className="classNav">
-        <li className="nav-links nav-links1">
-          <NavLink to="/" onClick={closeMenu}>
-            Accueil
-          </NavLink>
-        </li>
-        <li className="nav-links nav-links2">
-          <NavLink to="/informations" onClick={closeMenu}>
-            Informations
-          </NavLink>
-        </li>
-        <li className="nav-links nav-links3">
-          <NavLink to="/contact" onClick={closeMenu}>
-            Contact
-          </NavLink>
-        </li>
-      </ul>
-    </div>
     </div>
   );
 }
