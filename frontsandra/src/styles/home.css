@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.presentationActivite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.enSavoirPlus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}

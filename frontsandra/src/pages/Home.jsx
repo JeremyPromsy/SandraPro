@@ -8,6 +8,7 @@ function Home () {
             <h1>Découvrez VPA : Votre patrimoine autrement</h1>
                 <div className="presentation">
                     <h2>Mes préstations</h2>
+                    <div className="presentationActivite">
                     <div className="gestion">
                         <NavLink to="/gestion">
                             <h3>Gestion</h3>
@@ -28,16 +29,19 @@ function Home () {
                             <h3>Art-thérapie</h3>
                         </NavLink>
                     </div>
+                    </div>
                 </div>
-                <div className="quiSuisJe">
-                    <NavLink to="/informations">
-                        <h2>Qui suis-je ?</h2>
-                    </NavLink>
-                </div>
-                <div className="contactHome">
-                    <NavLink to="/contact">
-                        <h2>Contact</h2>
-                    </NavLink>
+                <div className="enSavoirPlus">
+                    <div className="quiSuisJe">
+                        <NavLink to="/informations">
+                            <h2>Qui suis-je ?</h2>
+                        </NavLink>
+                    </div>
+                    <div className="contactHome">
+                        <NavLink to="/contact">
+                            <h2>Contact</h2>
+                        </NavLink>
+                    </div>
                 </div>
         </div>
     )
