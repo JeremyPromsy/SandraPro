@@ -1,0 +1,15 @@
+.navLogo {
+    background: rgba(218,117,51,1);
+  }
+  
+  .logoNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 120px;
+    margin-top: 5px;
+    height: 100%;
+  }
