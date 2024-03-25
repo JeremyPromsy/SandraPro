@@ -3,14 +3,12 @@ import "../styles/financier.css"
 
 function Financier() {
     return (
-      <div className="pageInfomations">
-        <h1>Mon histoire</h1>
-        <div className="parcours">
-            <h2>Mon parcours</h2>
-        </div>
-        <div className="diplome">
-            <h2>Mes diplômes</h2>
-        </div>
+        <div className="pageFinancier">
+        <h1>Financier</h1>
+        <p>
+            Accompagnement dans les relations avec les établissements financiers et les organismes légaux
+            Réflexion sur la structuration, par recours éventuel à la dette, et suivi des placements financiers selon les besoins du client (train de vie, frais, budget pluri annuel, volonté d’organiser sa succession)
+        </p>
       </div>
     );
   }
