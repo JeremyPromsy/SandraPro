@@ -30,7 +30,7 @@ function Home () {
                     </div>
                 </div>
                 <div className="quiSuisJe">
-                    <NavLink to="/quisuisje">
+                    <NavLink to="/informations">
                         <h2>Qui suis-je ?</h2>
                     </NavLink>
                 </div>
