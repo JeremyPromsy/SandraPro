@@ -3,7 +3,39 @@ h1, h2, h3, h4, h5 {
     color: black;
 }
 
+h3 {
+    padding-bottom: 2px;
+    margin: 0;
+    /*background-image: url("../assets/VPA-Logo.png");*/
+}
 
+.titrePres{
+    border-bottom: solid 2px black;
+    position: relative;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titrePres img {
+position:absolute; 
+z-index: 1;
+height: 40px;
+}
+
+.titrePres h3 {
+    position:absolute; 
+    z-index: 2;
+    align-items: baseline;
+    justify-content: center;
+}
+
+
+p {
+    margin: 0;
+    padding-top: 10px;
+}
 
 a {
     text-decoration: none;
@@ -11,6 +43,9 @@ a {
 
 .presInd{
     max-width: 200px;
+    border: solid orange 3px;
+    padding:20px;
+    border-radius: 50%;
 }
 
 .presInd p {

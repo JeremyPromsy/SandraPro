@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/home.css"
 import { NavLink } from "react-router-dom";
+import logoNav from "../assets/VPA-Logo.png";
 
 function Home () {
     return (
@@ -11,7 +12,10 @@ function Home () {
                     <div className="presentationActivite">
                     <div className="gestion presInd">
                         <NavLink to="/gestion">
+                            <div className="titrePres">
+                            <img className="logo-img" src={logoNav} alt="logo VPA" />
                             <h3>Gestion</h3>
+                            </div>
                             <p>Pour vous aider au quotidien dans toutes les tâches administratives et personnelles.</p>
                         </NavLink>
                     </div>

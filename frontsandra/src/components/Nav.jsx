@@ -12,11 +12,15 @@ function Navbar() {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
+  const handleLinkClick = () => {
+    setIsSidebarOpen(false); // Fermer la sidebar lorsqu'un lien est cliqué
+  };
+
   return (
     <div className="container">
       <nav className={`sidebar ${isSidebarOpen ? "sidebar-open" : "reopen-btn"}`}>
         <div className="sidebar-top">
-          <NavLink to="/">
+          <NavLink to="/" onClick={handleLinkClick}>
             <img className="logo-img" src={logo} alt="logo VPA" />
           </NavLink>
           <div className="expand_btn">
@@ -27,25 +31,25 @@ function Navbar() {
           <h2>Menu</h2>
           <ul className="classNav">
             <li className="nav-links nav-links1">
-              <NavLink to="/Gestion">Gestion</NavLink>
+              <NavLink to="/Gestion" onClick={handleLinkClick}>Gestion</NavLink>
             </li>
             <li className="nav-links nav-links2">
-              <NavLink to="/financier">Financier</NavLink>
+              <NavLink to="/financier" onClick={handleLinkClick}>Financier</NavLink>
             </li>
             <li className="nav-links nav-links3">
-              <NavLink to="/immobilier">Immobilier</NavLink>
+              <NavLink to="/immobilier" onClick={handleLinkClick}>Immobilier</NavLink>
             </li>
             <li className="nav-links nav-links4">
-              <NavLink to="/art-thérapie">Art-Thérapie</NavLink>
+              <NavLink to="/art-thérapie"onClick={handleLinkClick}>Art-Thérapie</NavLink>
             </li>
           </ul>
           <h2>En savoir plus</h2>
           <ul className="classNav">
             <li className="nav-links nav-links5">
-              <NavLink to="/informations">Qui suis-je ?</NavLink>
+              <NavLink to="/informations"onClick={handleLinkClick}>Qui suis-je ?</NavLink>
             </li>
             <li className="nav-links nav-links6">
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/contact"onClick={handleLinkClick}>Contact</NavLink>
             </li>
           </ul>
         </div>
