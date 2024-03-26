@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/nav.css";
 import logo from "../assets/VPA-Logo.png";
+import flècheDroite from "../assets/FlècheDroite-2.png";
+import flècheGauche from "../assets/FlècheGauche.png";
 
 function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -12,12 +14,14 @@ function Navbar() {
 
   return (
     <div className="container">
-      <nav className={`sidebar ${isSidebarOpen ? "sidebar-open" : ""}`}>
+      <nav className={`sidebar ${isSidebarOpen ? "sidebar-open" : "reopen-btn"}`}>
         <div className="sidebar-top">
           <NavLink to="/">
             <img className="logo-img" src={logo} alt="logo VPA" />
           </NavLink>
-          <div className="expand_btn" onClick={toggleSidebar}></div>
+          <div className="expand_btn">
+          <img className="flècheDroite" src={flècheDroite} alt="flèche droite VPA" onClick={toggleSidebar}/>
+          </div>
         </div>
         <div className="sidebar-links">
           <h2>Menu</h2>
@@ -49,12 +53,9 @@ function Navbar() {
       {/* Bouton pour réouvrir le menu */}
       {!isSidebarOpen && (
         <div className="reopen-btn" onClick={toggleSidebar}>
-          Réouvrir le menu
+          <img className="flècheGauche" src={flècheGauche} alt="flèche gauche VPA" />
         </div>
       )}
-      <div className="content">
-        {/* Contenu principal de votre application */}
-      </div>
     </div>
   );
 }
