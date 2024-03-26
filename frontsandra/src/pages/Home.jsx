@@ -9,24 +9,28 @@ function Home () {
                 <div className="presentation">
                     <h2>Mes préstations</h2>
                     <div className="presentationActivite">
-                    <div className="gestion">
+                    <div className="gestion presInd">
                         <NavLink to="/gestion">
                             <h3>Gestion</h3>
+                            <p>Pour vous aider au quotidien dans toutes les tâches administratives et personnelles.</p>
                         </NavLink>
                     </div>
-                    <div className="financier">
+                    <div className="financier presInd">
                         <NavLink to="/financier">
                             <h3>Financier</h3>
+                            <p>Accompagnement adapté avec vos établissements bancaires</p>
                         </NavLink>
                     </div>
-                    <div className="immobilier">
+                    <div className="immobilier presInd">
                         <NavLink to="/immobilier">
                             <h3>Immobilier</h3>
+                            <p>Structuration, gestion et recherche pour votre patrimoine immobilier</p>
                         </NavLink>
                     </div>
-                    <div className="art">
+                    <div className="art presInd">
                         <NavLink to="/art-thérapie">     
                             <h3>Art-thérapie</h3>
+                            <p>Aide grâce à la création artistique de la gestion des traumastismes de vie</p>
                         </NavLink>
                     </div>
                     </div>
@@ -35,11 +39,13 @@ function Home () {
                     <div className="quiSuisJe">
                         <NavLink to="/informations">
                             <h2>Qui suis-je ?</h2>
+                            <p> </p>
                         </NavLink>
                     </div>
                     <div className="contactHome">
                         <NavLink to="/contact">
                             <h2>Contact</h2>
+                            <p> </p>
                         </NavLink>
                     </div>
                 </div>
