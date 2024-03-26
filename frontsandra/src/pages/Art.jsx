@@ -6,7 +6,7 @@ function Art() {
         <div className="pageArt">
         <h1>Art-Thérapie</h1>
         <p>
-           
+        <br/>
         </p>
       </div>
     );

@@ -6,22 +6,24 @@ h1, h2, h3, h4, h5 {
 h3 {
     padding-bottom: 2px;
     margin: 0;
-    /*background-image: url("../assets/VPA-Logo.png");*/
 }
 
 .titrePres{
-    border-bottom: solid 2px black;
     position: relative;
-    height: 40px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .titrePres img {
-position:absolute; 
-z-index: 1;
-height: 40px;
+    position:absolute; 
+    z-index: 1;
+    filter: brightness(0.2);
+    filter: grayscale(1);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .titrePres h3 {
@@ -29,6 +31,7 @@ height: 40px;
     z-index: 2;
     align-items: baseline;
     justify-content: center;
+    color: white;
 }
 
 
@@ -42,10 +45,8 @@ a {
 }
 
 .presInd{
-    max-width: 200px;
-    border: solid orange 3px;
+    max-width: 400px;
     padding:20px;
-    border-radius: 50%;
 }
 
 .presInd p {
@@ -57,7 +58,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 20px 0;
+    margin: 20px 40px;
 }
 
 .enSavoirPlus {
