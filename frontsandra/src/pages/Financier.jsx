@@ -1,9 +1,15 @@
 import React from "react";
 import "../styles/financier.css"
+import imgFinance from "../assets/VPA-Finance.jpg";
 
 function Financier() {
     return (
         <div className="pageFinancier">
+          <div className="encadrementImg">
+          <div className="imageFinancier">
+            <img className="imgFinancierInt" src={imgFinance} alt="logo VPA - Finance" />
+          </div>
+          </div>
         <h1>Financier</h1>
         <p>
             Accompagnement dans les relations avec les établissements financiers et les organismes légaux<br/>

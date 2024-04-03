@@ -1,9 +1,15 @@
 import React from "react";
 import "../styles/gestion.css"
+import imgGestion from "../assets/VPA-Gestion.jpg";
 
 function Gestion() {
     return (
       <div className="pageGestion">
+        <div className="encadrementImg">
+        <div className="imageGestion">
+        <img className="imgGestionInt" src={imgGestion} alt="logo VPA - Gestion" />
+        </div>
+        </div>
         <h1>Gestion</h1>
         <p>
             Relation avec les administrations, assistance aux formalités fiscales et légales.<br/>

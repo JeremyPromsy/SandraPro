@@ -28,7 +28,9 @@ function Navbar() {
           </div>
         </div>
         <div className="sidebar-links">
+          <NavLink to="/" onClick={handleLinkClick}>
           <h2>Menu</h2>
+          </NavLink>
           <ul className="classNav">
             <li className="nav-links nav-links1">
               <NavLink to="/Gestion" onClick={handleLinkClick}>Gestion</NavLink>

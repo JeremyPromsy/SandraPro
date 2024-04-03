@@ -46,7 +46,7 @@ function Home () {
                             <img className="imgMenu" src={imgArt} alt="logo VPA - Art" />  
                             <h3>Art-thérapie</h3>
                             </div>
-                            <p>Aide grâce à la création artistique de la gestion des traumastismes de vie</p>
+                            <p>Je vous aide grâce à la création artistique pour la gestion des traumastismes de vie</p>
                         </NavLink>
                     </div>
                     </div>
@@ -55,13 +55,13 @@ function Home () {
                     <div className="quiSuisJe">
                         <NavLink to="/informations">
                             <h2>Qui suis-je ?</h2>
-                            <p> </p>
+                            <p>Mon expérience, mes formations, mon expertise pour vous</p>
                         </NavLink>
                     </div>
                     <div className="contactHome">
                         <NavLink to="/contact">
                             <h2>Contact</h2>
-                            <p> </p>
+                            <p>Toutes les informations utiles</p>
                         </NavLink>
                     </div>
                 </div>
