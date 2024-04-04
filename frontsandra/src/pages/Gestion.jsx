@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/gestion.css"
 import imgGestion from "../assets/VPA-Gestion.jpg";
+import SavoirPlus from '../components/SavoirPlus.jsx'
 
 function Gestion() {
     return (
@@ -20,6 +21,9 @@ function Gestion() {
             Selon la nature de la dépendance, cette prestation peut s’inscrire dans un statut légal de Tuteur ou Curateur<br/>
             Accompagnement pour les formalités médicales<br/>
         </p>
+          <div className="lienEnSavoirPlus">
+            < SavoirPlus/>         
+          </div>
       </div>
     );
   }
