@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/immobilier.css"
 import imgImmo from "../assets/VPA-immobilier.jpg";
+import SavoirPlus from '../components/SavoirPlus.jsx'
 
 function Immobilier() {
     return (
@@ -19,6 +20,9 @@ function Immobilier() {
             Travaux de restructuration : Relation avec architectes, appels d'offres, suivi des chantiers, assistance au choix des matériaux et décoration, etc…<br/>
             Conciergerie
         </p>
+        <div className="lienEnSavoirPlus">
+            < SavoirPlus/>         
+          </div>
       </div>
     );
   }

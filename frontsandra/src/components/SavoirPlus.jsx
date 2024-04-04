@@ -9,7 +9,9 @@ function SavoirPlus () {
                     <h4>Si vous souhaitez en savoir plus, n'hésitez pas à me contacter.</h4>
                     <div className="buttonSavoirPlus">
                         <NavLink to="/contact">
-                            <button></button>
+                            <div className="buttonContact">
+                                <button>Contact</button>
+                            </div>
                         </NavLink>
                     </div>
                 </div>

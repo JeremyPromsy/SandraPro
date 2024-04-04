@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/art.css"
 import imgArt from "../assets/VPA-Art.jpg";
+import SavoirPlus from '../components/SavoirPlus.jsx'
 
 function Art() {
     return (
@@ -14,6 +15,9 @@ function Art() {
         <p>
         <br/>
         </p>
+        <div className="lienEnSavoirPlus">
+            < SavoirPlus/>         
+          </div>
       </div>
     );
   }
