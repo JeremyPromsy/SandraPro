@@ -1,7 +1,8 @@
 import React from "react";
 import "../styles/art.css"
 import imgArt from "../assets/VPA-Art.jpg";
-import SavoirPlus from '../components/SavoirPlus.jsx'
+import SavoirPlus from '../components/SavoirPlus.jsx'; 
+import Description from "../components/Description";
 
 function Art() {
     return (
@@ -12,9 +13,12 @@ function Art() {
           </div>
           </div>
         <h1>Art-Thérapie</h1>
-        <p>
-        <br/>
-        </p>
+        <Description className="desc desc1" title = {"Aide"} 
+                    content ={
+                    <p>
+                    <br></br>
+                    </p>
+                    } />
         <div className="lienEnSavoirPlus">
             < SavoirPlus/>         
           </div>

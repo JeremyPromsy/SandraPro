@@ -19,15 +19,19 @@ function Gestion() {
                     <br></br>Gestion administrative (règlement des factures, gestion des abonnements)<br/>
                     </p>
                     } />
-        <p>
-            <br/>
-            
-            Gestion événementielle (mariages, concerts, ….)<br/>
-            Organisation Voyages et déplacements<br/>
-            Organisations de la dépendance (assistance à domicile et/ou suivi de la relation avec les organismes de placements - foyers adultes handicapés, maisons de retraite, EPHAD),<br/>
-            Selon la nature de la dépendance, cette prestation peut s’inscrire dans un statut légal de Tuteur ou Curateur<br/>
-            Accompagnement pour les formalités médicales<br/>
-        </p>
+        <Description className="desc desc1" title = {"Evenementiel avec VPA"} 
+                    content ={
+                    <p>Gestion événementielle (mariages, concerts, ….)
+                    <br></br>Organisation Voyages et déplacements<br/>
+                    </p>
+                    } />
+        <Description className="desc desc1" title = {"Accompagnement du quotidien avec VPA"} 
+                    content ={
+                    <p>Organisations de la dépendance (assistance à domicile et/ou suivi de la relation avec les organismes de placements - foyers adultes handicapés, maisons de retraite, EPHAD)<br/>
+                    <br></br>Selon la nature de la dépendance, cette prestation peut s’inscrire dans un statut légal de Tuteur ou Curateur<br/>
+                    <br></br>Accompagnement pour les formalités médicales<br/>
+                    </p>
+                    } />
           <div className="lienEnSavoirPlus">
             < SavoirPlus/>         
           </div>
