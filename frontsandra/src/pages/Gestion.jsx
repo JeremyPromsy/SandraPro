@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/gestion.css"
 import imgGestion from "../assets/VPA-Gestion.jpg";
 import SavoirPlus from '../components/SavoirPlus.jsx'
+import Description from "../components/Description";
 
 function Gestion() {
     return (
@@ -12,9 +13,15 @@ function Gestion() {
         </div>
         </div>
         <h1>Gestion</h1>
+        <Description className="desc desc1" title = {"Administratif avec VPA"} 
+                    content ={
+                    <p>Relation avec les administrations, assistance aux formalités fiscales et légales.
+                    <br></br>Gestion administrative (règlement des factures, gestion des abonnements)<br/>
+                    </p>
+                    } />
         <p>
-            Relation avec les administrations, assistance aux formalités fiscales et légales.<br/>
-            Gestion administrative (règlement des factures, gestion des abonnements),<br/>
+            <br/>
+            
             Gestion événementielle (mariages, concerts, ….)<br/>
             Organisation Voyages et déplacements<br/>
             Organisations de la dépendance (assistance à domicile et/ou suivi de la relation avec les organismes de placements - foyers adultes handicapés, maisons de retraite, EPHAD),<br/>
