@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import Nav from './components/Nav'
-import NavLogo from './components/NavLogo'
 import Footer from './components/Footer'
 
 import Home from './pages/Home'
@@ -23,7 +22,6 @@ root.render(
   <React.StrictMode>
     <HashRouter>
     <Nav />
-    <NavLogo />
     <Routes>
       <Route path = "/" element ={<Home />} />
       <Route path = "/contact" element ={<Contact />} />

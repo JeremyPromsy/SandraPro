@@ -1,0 +1,93 @@
+.container {
+    position: fixed;
+    display: flex;
+    z-index: 3;
+    
+  }
+  
+  .container ul {
+    display: flex;
+    flex-direction: row;
+  
+  }
+    
+    .sidebar {
+      width: 250px;
+      background-color: #333;
+      color: #fff;
+      transition: transform 0.5s ease-in-out;
+      transform: translateX(-400px);
+    }
+    
+    .sidebar-open {
+      transform: translateX(0px);
+      transition: transform 0.5s ease-in-out;
+      border-radius: 50px;
+      top: 20px;
+      left: 20px;
+      position: fixed;
+      padding: 10px 20px;
+    }
+  
+    .reopen-btn {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      border-radius: 50px;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    
+    .sidebar-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    
+    .sidebar-top .logo-img {
+      width: 100px;
+    }
+    
+    .flècheDroite {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+  
+    .flècheGauche {
+      width: 30px;
+      padding-right: 5px;
+      height: 30px;
+      cursor: pointer;
+    }
+    
+    .sidebar-links {
+      padding: 20px;
+    }
+    
+    .sidebar-links h2 {
+      margin-bottom: 10px;
+      color: #fff;
+    }
+    
+    .classNav {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      padding: 10px 10px;
+    }
+    
+    .nav-links a:hover {
+      background-color: #555;
+    }
+    
+  
+    
