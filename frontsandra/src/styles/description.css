@@ -1,52 +1,35 @@
-.containerDesc {
-    height: 50px;
-    background-color: white;
-    color: rgba(218,117,51,1);
+.infosDesc{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
     border-radius: 5px;
     padding:10px 0px;
-    position: relative;
-    z-index: 2;
-    border: 0.5px solid rgba(218,117,51,1);
     width: 797px;
-    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
     transform: translateY(30px);
-    opacity: 0;
     animation: entrance-effect 1000ms forwards;
 }
 
-.collapseFermé p {
-    background-color: rgba(218,117,51,1);
-    border-radius: 5px;
-    color: white;
-    margin-top: -10px;
-    padding: 20px 10px 4px 10px;
-    font-size: 16px;
-    position: relative;
-    z-index: 1;
-    width: 760px;
-    text-align: center;
-    line-height: 25px;
-}
-
-.containerDesc img {
-    width: 50px;
-    background-color: black;
-}
-
-
 .container h3 {
     font-size: 20px;
-    text-align: center;
-    flex: 1;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
+    height: 70px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container img {
-    height: 30px;
-    padding-right: 10px;
+.container p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+
 }
+
 
 @keyframes entrance-effect {
     0% {
@@ -67,20 +50,6 @@
         padding:5px 0px;
         width: 597px;
     }
-
-    .collapseFermé p {
-        margin-top: -20px;
-        padding-top: 30px;
-        font-size: 18px;
-        width: 560px;
-    }
-
-    .collapseFermé ul{
-        font-size: 12px;
-        padding-top: 30px;
-        margin-top: -20px;
-        width: 560px;
-    }
 }
 
 
@@ -90,20 +59,6 @@
         margin: 5px 0px;
         padding:5px 0px;
         width: 347px;
-    }
-
-    .collapseFermé p {
-        margin-top: -20px;
-        padding-top: 30px;
-        font-size: 12px;
-        width: 310px;
-    }
-
-    .collapseFermé ul{
-        font-size: 12px;
-        padding-top: 30px;
-        margin-top: -20px;
-        width: 310px;
     }
 }
 
@@ -119,19 +74,5 @@
     .container h3 {
         font-size: 12px;
         padding-left:10px;
-    }
-
-    .collapseFermé p {
-        margin-top: -15px;
-        padding-top: 20px;
-        font-size: 10px;
-        width: 210px;
-    }
-
-    .collapseFermé ul{
-        font-size: 10px;
-        padding-top: 20px;
-        margin-top: -15px;
-        width: 210px;
     }
 }

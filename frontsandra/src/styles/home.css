@@ -8,10 +8,30 @@ h3 {
     margin: 0;
 }
 
+p {
+    margin: 0;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.homePage{
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
 .titrePres{
     position: relative;
     height: 200px;
-    width: 400px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,23 +57,21 @@ h3 {
     font-size: 30px;
 }
 
-
-p {
-    margin: 0;
-    padding-top: 10px;
-}
-
-a {
-    text-decoration: none;
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .presInd{
-    max-width: 400px;
-    padding:20px;
+    max-width: 500px;
+    padding:5px;
 }
 
 .presInd p {
     text-align: center;
+    font-size: 12px;
 }
 
 .presentationActivite {
@@ -63,12 +81,32 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px 40px;
+    max-width: 1200px;
+}
+
+.meConnaitreHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .enSavoirPlus {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: column;
     margin: 20px 0;
+    max-width: 1000px;
+}
+
+.contactHome {
+    max-width: 1000px;
+    padding: 20px;
+}
+
+
+.quiSuisJe {
+    max-width: 1000px;
+    padding: 20px;
 }

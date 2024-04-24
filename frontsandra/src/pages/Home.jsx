@@ -8,7 +8,8 @@ import imgImmo from "../assets/VPA-immobilier.jpg";
 
 function Home () {
     return (
-        <div className="home">
+        <div className="homePage">
+            <div className="home">
             <h1>Découvrez VPA : Votre patrimoine autrement</h1>
                 <div className="presentation">
                     <h2>Mes préstations</h2>
@@ -51,20 +52,23 @@ function Home () {
                     </div>
                     </div>
                 </div>
-                <div className="enSavoirPlus">
-                    <div className="quiSuisJe">
-                        <NavLink to="/informations">
-                            <h2>Qui suis-je ?</h2>
-                            <p>Mon expérience, mes formations, mon expertise pour vous</p>
-                        </NavLink>
-                    </div>
-                    <div className="contactHome">
-                        <NavLink to="/contact">
-                            <h2>Contact</h2>
-                            <p>Toutes les informations utiles</p>
-                        </NavLink>
+                <div className="meConnaitreHome">
+                    <div className="enSavoirPlus">
+                        <div className="quiSuisJe">
+                            <NavLink to="/informations">
+                                <h2>Qui suis-je ?</h2>
+                                <p>Mon expérience, mes formations, mon expertise pour vous</p>
+                            </NavLink>
+                        </div>
+                        <div className="contactHome">
+                            <NavLink to="/contact">
+                                <h2>Contact</h2>
+                                <p>Toutes les informations utiles</p>
+                            </NavLink>
+                        </div>
                     </div>
                 </div>
+            </div>
         </div>
     )
 }
