@@ -1,39 +1,76 @@
-.navLogo .logoNav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.header {
   background: green;
+  height: 100px;
+  position: sticky;
+  width: 100%;
+  top:0;
+  z-index:1000;
 }
 
-.navLogo .logo-img {
-  width: 120px;
-  margin-top: 5px;
-  height: 100%;
+.navLogo {
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.navGauche{
+  display: flex;
   padding-left: 20px;
+}
+
+.sidebar-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoNav {
+  text-align: center;
+}
+
+.logo-img{
+  height: 100%;
+  width: 120px;
 }
 
 .navLogo ul {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-
 }
 
-  .classNav {
-    list-style: none;
-    padding: 0;
-    padding-right: 20px;
-  }
-  
-  .nav-links a {
+.classNav {
+  list-style: none;
+  padding: 0;
+}
+
+.contactNav {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.nav-links6{
+  border-radius: 20px;
+  background-color: orange;
+  border: none;
+}
+
+.nav-links a {
     color: #fff;
     text-decoration: none;
     display: block;
     padding: 10px 10px;
-  }
+    font-size: 16px;
+}
   
-  .nav-links a:hover {
+.nav-links a.active,
+.nav-links a:hover,
+.nav-links a:focus {
     background-color: #555;
-  }
+}
   
 
   
