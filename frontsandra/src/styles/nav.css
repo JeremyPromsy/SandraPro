@@ -1,5 +1,5 @@
 .header {
-  background: green;
+  background: #002A3B;
   height: 100px;
   position: sticky;
   width: 100%;
@@ -8,7 +8,6 @@
 }
 
 .navLogo {
-  background: green;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,6 +27,7 @@
 
 .logoNav {
   text-align: center;
+  padding: 0 20px 0 10px;
 }
 
 .logo-img{
@@ -54,8 +54,12 @@
 
 .nav-links6{
   border-radius: 20px;
-  background-color: orange;
+  background-color: #f38545 ;
   border: none;
+}
+
+.nav-links {
+  padding: 0 5px;
 }
 
 .nav-links a {
@@ -69,7 +73,8 @@
 .nav-links a.active,
 .nav-links a:hover,
 .nav-links a:focus {
-    background-color: #555;
+    background-color: #f38545 ;
+    border-radius: 20px;
 }
   
 

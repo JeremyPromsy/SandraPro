@@ -1,11 +1,26 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     text-align: center;
-    color: white;
-    height: 60px;
-    border-top: 2px black solid;
+    border-top: 2px #f38545 solid;
+    background-color: #002A3B;
+    height: 200px;
+}
+
+.footerHaut{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90%;
+}
+
+.footerGauche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
 }
 
 .logoFooter {
@@ -13,12 +28,49 @@
     padding-top: 5px;
 }
 
-.nav-linksFooter a {
+.footerMilieu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34%;
+    margin:0;
+    padding: 0;
+    border-left: 1px #f38545  solid ;
+    border-right: 1px #f38545 solid;
+}
+
+.navLinksFooterMid {
+    margin:0;
+    padding: 0;
+}
+
+.nav-links-footer {
+    list-style: none;
     text-decoration: none;
     color: black;
+}
+
+.footerDroit {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.footerBas{
+    border-top: 2px solid #f38545;
+    padding: 5px 0;
+    width: 100%;
+    font-style: italic;
+}
+
+.nav-linksFooter a {
+    text-decoration: none;
+    color: black; 
     padding: 0 30px;
     font-size: 16px;
 }
+
+
 
 @media (max-width: 375px) {
     .footer {
