@@ -15,6 +15,10 @@ import Gestion from './pages/Gestion'
 import Art from './pages/Art'
 import Financier from './pages/Financier'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faFontAwesome, faTiktok, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+
 import "./index.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -38,3 +42,4 @@ root.render(
   </React.StrictMode>,
 );
 
+library.add(fas, faTwitter, faFontAwesome, faTiktok, faLinkedin)
