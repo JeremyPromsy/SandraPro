@@ -1,6 +1,6 @@
-h1, h2, h3, h4, h5 {
+.home h1 {
     text-align: center;
-    color: black;
+    color: #f38545;
 }
 
 h3 {
@@ -11,6 +11,7 @@ h3 {
 p {
     margin: 0;
     padding-top: 10px;
+    color: black;
 }
 
 a {
@@ -53,7 +54,7 @@ a {
     z-index: 2;
     align-items: baseline;
     justify-content: center;
-    color: red;
+    color: #f38545;
     font-size: 30px;
 }
 
@@ -96,17 +97,43 @@ a {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    margin: 20px 0;
-    max-width: 1000px;
+    margin: 10px 0;
+    width: 1000px;
 }
 
 .contactHome {
-    max-width: 1000px;
-    padding: 20px;
+    width: 100%;
+    padding: 20px 5px;
+    margin: 5px;
+    background-color: #002A3B;
+    text-align: center;
+    color: #f38545;
+    border-radius: 20px;
 }
 
 
 .quiSuisJe {
-    max-width: 1000px;
-    padding: 20px;
+    width: 100%;
+    padding: 20px 5px;
+    margin: 5px;
+    background-color: #002A3B;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.quiSuisJe h2 {
+    color: #f38545;
+}
+
+.quiSuisJe p {
+    color: white;
+}
+
+.contactHome h2 {
+    color: #f38545
+}
+
+.contactHome p {
+    color: white;
 }
