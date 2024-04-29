@@ -1,5 +1,10 @@
+.savoirPlus {
+    margin: 20px 0;
+}
+
 .presentation h4 {
     margin:5px;
+    color: #f38545;
 }
 
 .buttonSavoirPlus {
@@ -15,6 +20,6 @@
     height: 50px;
     width: 100px;
     border-radius: 20px;
-    background-color: #f38545;
-    border: none;
+    background-color: #002A3B;
+    border: 2px solid #f38545;
 }
