@@ -12,12 +12,12 @@ function Navbar() {
   };
 
   const closeMenu = () => {
-    setShowLinks(false); // Ferme le menu lorsqu'un NavLink est cliqué
+    setShowLinks(false); 
   };
 
   return (
     <nav className="header">
-      <div className="navHeader">
+      <div className={`navHeader ${showLinks ? "showNav" : "hideNav"}`}>
         <div className="navLogo">
           <div className="navBurger">
           <div className="navGauche">
@@ -30,7 +30,7 @@ function Navbar() {
               <img className="logo-img" src={logoNav} alt="logo VPA" />
             </NavLink>
           </div>
-          <div className={`navbar ${showLinks ? "showNav" : "hideNav"}`}>
+          <div className="navbar">
             <ul className="classNav">
               <li className="nav-links nav-links0">
                 <NavLink to="/" onClick={closeMenu}>Accueil</NavLink>
@@ -50,13 +50,14 @@ function Navbar() {
               <li className="nav-links nav-links5">
                 <NavLink to="/informations" onClick={closeMenu}>Me connaitre</NavLink>
               </li>
+              <li className="nav-links nav-links7">
+                  <NavLink to="/contact">Contact</NavLink>
+              </li>
             </ul>
           </div>
           </div>
-        <div className="contactNav">
-          <button className="nav-links nav-links6">
+        <div className="contactNav nav-links nav-links6">
             <NavLink to="/contact">Contact</NavLink>
-          </button>
         </div>
         </div>
       </div>
