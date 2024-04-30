@@ -6,21 +6,17 @@
     text-align: center;
     border-top: 2px #f38545 solid;
     background-color: #002A3B;
-    height: 240px;
 }
 
 .footerHaut{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 80%;
 }
 
 .footerGauche {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 33%;
 }
 
 .logoFooter {
@@ -32,11 +28,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 34%;
     margin:0;
     padding: 0;
-    border-left: 1px #f38545  solid ;
-    border-right: 1px #f38545 solid;
 }
 
 .navLinksFooterMid {
@@ -62,7 +55,6 @@
 .footerDroit {
     display: flex;
     justify-content: center;
-    width: 33%;
 }
 
 .footerBoutonContact{
@@ -115,16 +107,60 @@
     height: 20%;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width:950px){
     .footer {
-        height: 100px;
-    }    
-    .logoFooter {
-        width: 50px;
+        width: 100%;
+    }
+    
+    .footerHaut{
+        flex-direction: column;
+        width: 100%;
     }
 
+    .footerGauche{
+        height: 100px;
+    }
+
+    .footerMilieu{
+        border-top: 1px #f38545  solid;
+        border-bottom: 1px #f38545 solid;
+        height: 200px;
+    }
+    
+    .footerDroit{
+        height: 200px;
+    }
+
+    .footerBas{
+        height: 50px;
+    }
 }
 
-@media screen and (max-width:767px){
-    
+@media screen and (min-width:951px){
+.footer {
+    height: 240px;
+}
+
+.footerHaut{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerGauche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.footerMilieu {
+    width: 34%;
+    border-left: 1px #f38545  solid ;
+    border-right: 1px #f38545 solid;
+}
+
+.footerDroit {
+    width: 33%;
+}
 }
