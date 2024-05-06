@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/footer.css"
-import logo from "../assets/VPA-Logo.png"
+import logo from "../assets/VPA-logo-Mobile.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 

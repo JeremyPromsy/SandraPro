@@ -20,7 +20,7 @@
 }
 
 .logoFooter {
-    height: 50px;
+    height: 180px;
     padding-top: 5px;
 }
 
@@ -118,6 +118,11 @@
 
     .footerGauche{
         height: 100px;
+    }
+
+    .logoFooter {
+        height: 100px;
+        padding-top: 0;
     }
 
     .footerMilieu{

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/nav.css";
-import logoNav from "../assets/VPA-Logo.png";
+import logoNavD from "../assets/VPA-logo-Desktop.png";
+import logoNavM from "../assets/VPA-logo-Mobile.png";
 
 function Navbar() {
 
@@ -27,7 +28,8 @@ function Navbar() {
           </div>
           <div className="logoNav">
             <NavLink to="/" onClick={closeMenu}>
-              <img className="logo-img" src={logoNav} alt="logo VPA" />
+              <img className="logo-img-Desktop" src={logoNavD} alt="logo VPA" />
+              <img className="logo-img-Mobile" src={logoNavM} alt="logo VPA" />
             </NavLink>
           </div>
           <div className="navbar">
