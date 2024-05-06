@@ -53,7 +53,7 @@ function Navbar() {
                 <NavLink to="/informations" onClick={closeMenu}>Me connaitre</NavLink>
               </li>
               <li className="nav-links nav-links7">
-                  <NavLink to="/contact">Contact</NavLink>
+                  <NavLink to="/contact" onClick={closeMenu}>Contact</NavLink>
               </li>
             </ul>
           </div>
