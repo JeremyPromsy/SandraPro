@@ -5,6 +5,7 @@
 .presentation h4 {
     margin:5px;
     color: #f38545;
+    text-align: center;
 }
 
 .buttonSavoirPlus {
@@ -22,4 +23,10 @@
     border-radius: 20px;
     background-color: #002A3B;
     border: 2px solid #f38545;
+}
+
+@media screen and (max-width:950px){
+    .presentation h4 {
+        font-size: 14px;
+    }
 }
