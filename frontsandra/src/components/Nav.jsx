@@ -59,7 +59,7 @@ function Navbar() {
           </div>
           </div>
         <div className="contactNav nav-links nav-links6">
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/contact" onClick={closeMenu}>Contact</NavLink>
         </div>
         </div>
       </div>
