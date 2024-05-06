@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.ed684773.css",
-    "main.js": "./static/js/main.1fc1799e.js",
+    "main.css": "./static/css/main.2094bcda.css",
+    "main.js": "./static/js/main.0a856169.js",
     "static/media/VPA-Finance.jpg": "./static/media/VPA-Finance.857c954111e598ebf495.jpg",
     "static/media/VPA-Gestion.jpg": "./static/media/VPA-Gestion.457cd5c4900a508a5c80.jpg",
     "static/media/VPA-immobilier.jpg": "./static/media/VPA-immobilier.440462f02d7bca051c09.jpg",
     "static/media/VPA-Art.jpg": "./static/media/VPA-Art.61a895e3b413126a6e6d.jpg",
-    "static/media/VPA-Logo.png": "./static/media/VPA-Logo.719033ccb3795ea6a697.png",
+    "static/media/VPA-logo-Mobile.png": "./static/media/VPA-logo-Mobile.347e89fbe93474275a1e.png",
+    "static/media/VPA-logo-Desktop.png": "./static/media/VPA-logo-Desktop.b7308deaa537b725feb0.png",
     "index.html": "./index.html",
-    "main.ed684773.css.map": "./static/css/main.ed684773.css.map",
-    "main.1fc1799e.js.map": "./static/js/main.1fc1799e.js.map"
+    "main.2094bcda.css.map": "./static/css/main.2094bcda.css.map",
+    "main.0a856169.js.map": "./static/js/main.0a856169.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed684773.css",
-    "static/js/main.1fc1799e.js"
+    "static/css/main.2094bcda.css",
+    "static/js/main.0a856169.js"
   ]
 }
