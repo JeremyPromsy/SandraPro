@@ -155,23 +155,17 @@ a {
 }
 
 @media screen and (max-width:768px){
-    .enSavoirPlus {
-        width: 450px;
-    }
-}
-
-@media screen and (max-width:480px){
     .home h1 {
         font-size: 16px;
     }
     
     .titrePres{
-        height: 150px;
-        width: 300px;
+        height: 200px;
+        width: 450px;
     }
     
     .titrePres h3 {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .titrePres p {
@@ -179,11 +173,10 @@ a {
         text-align: center;
     }
 
-    
     .presInd p {
         text-align: center;
         font-size: 12px;
-        max-width: 300px;
+        max-width: 450px;
     }
 
     .presentation h2 {
@@ -192,7 +185,6 @@ a {
     
     .presentationActivite {
         margin: 5px 10px;
-        max-width: 1200px;
     }
     
     .contactHome {
@@ -208,15 +200,34 @@ a {
     }
     
     .enSavoirPlus {
-        width: 400px;
+        width: 450px;
     }
 
     .enSavoirPlus h2 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .enSavoirPlus p {
         font-size: 12px;
         padding-top: 5px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .titrePres{
+        height: 150px;
+        width: 300px;
+    }
+    
+    .titrePres h3 {
+        font-size: 26px;
+    }
+
+    .presInd p {
+        max-width: 300px;
+    }
+    
+    .enSavoirPlus {
+        width: 300px;
     }
 }
