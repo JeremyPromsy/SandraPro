@@ -106,7 +106,7 @@
     color: #f38545;
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width:1024px){
     .footer {
         width: 100%;
     }
@@ -140,7 +140,7 @@
     }
 }
 
-@media screen and (min-width:951px){
+@media screen and (min-width:1025px){
 .footer {
     height: 240px;
 }
