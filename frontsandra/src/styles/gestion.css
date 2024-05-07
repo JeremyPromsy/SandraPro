@@ -25,3 +25,24 @@
     filter: grayscale(1);
     border-radius: 10%;
 }
+
+@media screen and (max-width:1024px){
+    .imageGestion {
+        max-width: 400px;
+        max-height: 250px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .imageGestion {
+        max-width: 350px;
+        max-height: 220px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .imageGestion {
+        max-width: 300px;
+        max-height: 200px;
+    }
+}
