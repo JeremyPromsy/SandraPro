@@ -138,14 +138,85 @@ a {
     color: white;
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width:1025px){
     .enSavoirPlus {
         width: 700px;
     }
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:1024px){
     .enSavoirPlus {
         width: 500px;
+    }
+}
+
+@media screen and (max-width:834px){
+    
+}
+
+@media screen and (max-width:768px){
+    .enSavoirPlus {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .home h1 {
+        font-size: 16px;
+    }
+    
+    .titrePres{
+        height: 150px;
+        width: 300px;
+    }
+    
+    .titrePres h3 {
+        font-size: 26px;
+    }
+
+    .titrePres p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    
+    .presInd p {
+        text-align: center;
+        font-size: 12px;
+        max-width: 300px;
+    }
+
+    .presentation h2 {
+        font-size: 14px;
+    }
+    
+    .presentationActivite {
+        margin: 5px 10px;
+        max-width: 1200px;
+    }
+    
+    .contactHome {
+        width: 100%;
+        padding: 10px 5px;
+        margin: 5px;
+    }
+    
+    .quiSuisJe {
+        width: 100%;
+        padding: 10px 5px;
+        margin: 5px;
+    }
+    
+    .enSavoirPlus {
+        width: 400px;
+    }
+
+    .enSavoirPlus h2 {
+        font-size: 14px;
+    }
+
+    .enSavoirPlus p {
+        font-size: 12px;
+        padding-top: 5px;
     }
 }

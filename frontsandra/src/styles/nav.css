@@ -6,6 +6,7 @@
   top:0;
   z-index:1000;
 }
+
 .navLogo {
   display: flex;
   align-items: center;
@@ -101,7 +102,7 @@
 }
 
 
-@media screen and (min-width:951px){
+@media screen and (min-width:1025px){
   .nav-links0{
     display: none;
   }
@@ -119,7 +120,7 @@
   }
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width:1024px){
   .navbar {
     height: 100px;
   }
@@ -226,7 +227,7 @@
   
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:834px){
   .navbar {
     height: 80px;
   }
@@ -241,4 +242,12 @@
   .menuIcon{
     top: 20px;
   }
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:480px){
+  
 }
