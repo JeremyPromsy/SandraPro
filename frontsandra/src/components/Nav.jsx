@@ -28,8 +28,8 @@ function Navbar() {
           </div>
           <div className="logoNav">
             <NavLink to="/" onClick={closeMenu}>
-              <img className="logo-img-Desktop" src={logoNavD} alt="logo VPA" />
               <img className="logo-img-Mobile" src={logoNavM} alt="logo VPA" />
+              <img className="logo-img-Desktop" src={logoNavD} alt="logo VPA" />
             </NavLink>
           </div>
           <div className="navbar">

@@ -29,11 +29,19 @@ h2 {
     margin: 20px 0;
 }
 
+.contactDiv h1 {
+    margin: 5px;
+}
+
 .boutonMailContact {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
+}
+
+.boutonMail p {
+    text-align: center;
 }
 
 .buttonContactPage {
@@ -42,6 +50,6 @@ h2 {
     height: 50px;
     width: 120px;
     border-radius: 20px;
-    background-color: rgba(218, 117, 51, 1);
-    border: solid 1px black;
+    background-color: #002A3B;
+    border: solid 1px #f38545;
 }

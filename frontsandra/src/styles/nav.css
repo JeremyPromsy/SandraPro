@@ -137,6 +137,7 @@
     width: 200px;
     display: flex;
     align-items: center;
+    padding-right: 20px;
   }
 
   .logo-img-Desktop{
